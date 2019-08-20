@@ -1,0 +1,54 @@
+html{
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.jumbotron {
+    height: 633px;
+    color: aliceblue;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -200px;
+    background-image: url(../img/hutan.jpg)
+}
+
+.jumbotron img{
+    width: 200px;
+    border: 5px solid #333333;
+    height: 200px;
+}
+.jumbotron h1, .jumbotron p {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+hr {
+    width: 200px;
+    border-top: 5px solid #999999;
+}
+section {
+    height: 700px;
+}
+
+
+.portfollio {
+  background-color: #eeeeee; 
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    padding-top: 15px;
+}
+
+.footer p {
+    font-size: 1em;
+    color: #eeeeee;
+}
